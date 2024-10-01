@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Good Night';
+    src: url('GoodNightRegular.eot');
+    src: url('GoodNightRegular.eot?#iefix') format('embedded-opentype'),
+        url('GoodNightRegular.woff2') format('woff2'),
+        url('GoodNightRegular.woff') format('woff'),
+        url('GoodNightRegular.ttf') format('truetype'),
+        url('GoodNightRegular.svg#GoodNightRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
