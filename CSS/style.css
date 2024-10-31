@@ -1,0 +1,17 @@
+.head
+
+
+.cont 
+    {width: 1200px; margin: 0 auto; }
+.logo
+    {float: left;}   
+.menu 
+    {float: right; padding-top: 10px; } 
+.main 
+    {padding-left: 300px; padding-top: 25px; }
+
+div > div > div img:first-child 
+     {padding-left: 40px;  }  
+    
+div.menu img[src*="location"]
+     {padding-left: 10px; border-right: 1px; border-style: solid; padding-right: 20px; border-right-color: rgb(227, 227, 227);}   
