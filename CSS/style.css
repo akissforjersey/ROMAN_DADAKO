@@ -1,17 +1,45 @@
+body{font-family: 'Roboto';}
+
 .head
 
 
 .cont 
-    {width: 1200px; margin: 0 auto; }
+    {width: 1200px;  margin: 0 auto; font-family: 'Roboto'; text-transform: uppercase; font-size: 14px;}
 .logo
     {float: left;}   
 .menu 
-    {float: right; padding-top: 10px; } 
+    {float: right; padding-top: 15px; } 
 .main 
-    {padding-left: 300px; padding-top: 25px; }
+    {padding-left: 250px; padding-top: 25px; ;}
 
 div > div > div img:first-child 
-     {padding-left: 40px;  }  
+     {padding-left: 40px; ;}  
     
 div.menu img[src*="location"]
-     {padding-left: 10px; border-right: 1px; border-style: solid; padding-right: 20px; border-right-color: rgb(227, 227, 227);}   
+     {padding-left: 10px; border-right: 1px; border-style: solid; padding-right: 20px; border-right-color: rgb(227, 227, 227);
+    }   
+
+
+div.menu img[src*="Line 4"]
+         {vertical-align: middle; border-top-style: solid; border-color: black; border-width: 1px; padding: 5px 0px; border-bottom-style: solid; vertical-align: super; margin-left: 20px;
+        }
+
+div.menu span{border-radius: 30px; border-style: solid; border-color: #6a6a6a; border-width: 1px; padding: 11px 16px; vertical-align: super; 
+    margin-right: 10px; font-weight: 500;
+}
+ul.main li:nth-child(2)
+{color: red; font-weight: 600;
+
+}
+
+div.front {
+     height: 1080px;  margin: 0 auto; background-repeat: no-repeat; background-size: cover;
+}
+
+div.front h2{
+    color: white; padding-top: 242px; font-weight: 800; padding-left: 300px;
+    padding-right: 300px;
+    font-size: 128px;
+    line-height: 105%;
+    text-align: center;
+    }
