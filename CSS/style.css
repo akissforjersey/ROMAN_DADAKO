@@ -1,16 +1,15 @@
 body{font-family: 'Roboto';}
 
-.head
-
-
-.cont 
+div.cont 
     {width: 1200px;  margin: 0 auto; font-family: 'Roboto'; text-transform: uppercase; font-size: 14px;}
+
 .logo
     {float: left;}   
 .menu 
     {float: right; padding-top: 15px; } 
 .main 
     {padding-left: 250px; padding-top: 25px; ;}
+    
 
 div > div > div img:first-child 
      {padding-left: 40px; ;}  
@@ -32,14 +31,149 @@ ul.main li:nth-child(2)
 
 }
 
+
 div.front {
      height: 1080px;  margin: 0 auto; background-repeat: no-repeat; background-size: cover;
 }
 
-div.front h2{
+
+div.front h1{
     color: white; padding-top: 242px; font-weight: 800; padding-left: 300px;
     padding-right: 300px;
     font-size: 128px;
     line-height: 105%;
     text-align: center;
+    margin: 0 0;
     }
+
+div.tur 
+{
+    margin-top: 134px;
+    height: 713px;
+}
+
+div.tur h2 {font-weight: 500;
+    font-size: 44px;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+}
+
+div.tur p:first-of-type
+{font-weight: 300;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+}
+
+div.tur1 
+{   
+     padding-top: 22px;  
+     
+}
+
+div.tur p:last-of-type 
+ { font-weight: 400;
+    font-size: 52px;
+    margin-left: -122px;
+
+}
+
+div.venecy 
+{float: left;
+     width: 256px; 
+     height: 340px;
+    margin-right: 58px; 
+    background-repeat: no-repeat; 
+    border-radius: 30px;
+
+}
+
+div.cappa 
+{ float: left; 
+     width: 256px;
+      height: 340px;
+       background-repeat: no-repeat;
+    margin-right: 58px;
+     border-radius: 30px;
+
+}
+
+div.rim 
+{
+    float: left;  width: 256px; 
+    height: 340px; 
+    background-repeat: no-repeat;
+     margin-right: 58px;
+      border-radius: 30px;
+
+}
+
+div.dubai 
+{
+   float: left;  width: 256px; 
+   height: 340px; 
+    background-repeat: no-repeat; 
+   border-radius: 30px;
+}
+
+div.tur1 div.price p{
+    font-weight: 300;
+  font-size: 14px;
+  
+
+}
+
+div.tur1 div.price span:first-of-type
+{
+   border-style: solid;
+   border-width: 1px;
+   border-radius: 30px;
+   border-color: white;
+   padding: 3px 10px;
+}
+
+div.tur1 div.price span:last-of-type
+{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px;
+    border-color: white;
+    padding: 3px 10px;
+}
+  
+div.tur1 div.date 
+{
+    margin-top: 229px; 
+    color: white;
+}
+
+div.tur1 div.date p:first-of-type
+{
+    font-weight: 500;
+font-size: 14px;
+text-transform: uppercase;
+}
+div.tur1 div.date p:nth-child(2)
+{
+    font-weight: 500;
+font-size: 14px;
+text-transform: none;
+padding: 6px 0px;
+
+}
+
+div.tur1 div.date p:nth-child(3)
+{
+    font-weight: 300;
+font-size: 14px;
+text-transform: lowercase;
+
+
+}
+
+div.tur1 div.info 
+{
+    margin-left: 20px;
+    text-align: left;
+    margin-top: 22px;
+}
