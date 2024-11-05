@@ -1,4 +1,4 @@
-body{font-family: 'Roboto';}
+body{font-family: 'Roboto', sans-serif;}
 
 .cont 
     {width: 1200px;  margin: 0 auto; font-family: 'Roboto'; text-transform: uppercase; font-size: 14px;}
@@ -9,11 +9,7 @@ body{font-family: 'Roboto';}
     {float: right; padding-top: 15px; } 
 .main 
     {padding-left: 250px; padding-top: 25px; ;}
-    
-
-div > div > div img:first-child 
-     {padding-left: 40px; ;}  
-    
+  
 div.menu img[src*="location"]
      {padding-left: 10px; border-right: 1px; border-style: solid; padding-right: 20px; border-right-color: rgb(227, 227, 227);
     }   
@@ -50,7 +46,7 @@ div.tur
 {
     margin-top: 134px;
     height: 713px;
-    color: white;
+    
 }
 
 div.tur h2 {font-weight: 500;
@@ -59,7 +55,7 @@ div.tur h2 {font-weight: 500;
     padding-bottom: 6px;
 }
 
-div.tur p:first-of-type
+.moment
 {font-weight: 300;
     font-size: 24px;
     text-transform: uppercase;
@@ -68,14 +64,19 @@ div.tur p:first-of-type
 
 div.tur1 
 {   
-     padding-top: 22px;  
+     margin-top: 22px; 
+     height: 340px;
+
      
 }
 
-div.tur p:last-of-type 
+.tt
  { font-weight: 400;
     font-size: 52px;
     margin-left: -122px;
+    font-family: 'Millanova', sans-serif;
+    color: #D4D4D4;
+    text-transform: none;
 
 }
 
@@ -117,12 +118,11 @@ div.dubai
    border-radius: 30px;
 }
 
-div.tur1 div.price p{
+div.tur1 div.price {
     font-weight: 300;
   font-size: 14px;
- 
+  text-transform: none;
   
-
 }
 
 div.tur1 div.price span:first-of-type
@@ -164,11 +164,12 @@ padding: 6px 0px;
 
 }
 
-div.tur1 div.date p:nth-child(3)
+.uzn
 {
     font-weight: 300;
 font-size: 14px;
 text-transform: lowercase;
+color: white;
 
 
 }
@@ -178,4 +179,190 @@ div.tur1 div.info
     margin-left: 20px;
     text-align: left;
     margin-top: 22px;
+}
+.cont2
+{
+    width: 1550px;
+    margin: 0 auto;
+    
+}
+
+.hotel
+{
+    text-align: center;
+    background-color: #F8F8F8;
+}
+.hotels
+{
+    font-weight: 400;
+    font-size: 42px;
+    padding-top: 72px;
+    font-family: 'Millanova', sans-serif;
+    color: #D4D4D4;
+    
+}
+
+.otl
+{
+    font-weight: 500;
+    font-size: 44px;
+    text-transform: uppercase; 
+    margin-top: 20px;
+}
+.uyt
+{
+    font-weight: 300;
+font-size: 24px;
+text-transform: uppercase;
+margin-top: 6px;
+}
+div.pop
+{
+    margin-top: 28px;
+    height: 700px;
+}
+div.ritz 
+{
+    float: left;
+    width: 460px;
+    height: 340px;
+    border-radius: 30px;
+    margin-right: 32px;
+    margin-top: 30px;
+}
+
+div.villa 
+{
+    float: left;
+    width: 544px;
+    height: 400px;
+    border-radius: 30px;
+    margin-right: 32px;
+}
+
+div.ikos
+{
+    float: left;
+    width: 460px;
+    height: 340px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+div.rate 
+{
+   padding-top: 30px; 
+   text-align: right;
+}
+ div.rate  span
+{
+    font-weight: 400;
+font-size: 65px;
+text-transform: uppercase;
+
+color: white;
+
+
+
+
+}
+div.rate  img
+{
+    margin-top: -8px;
+    vertical-align:top;
+    margin-right: 30px;
+    
+}
+.mest
+{
+    text-align: left;
+    margin-top: 163px;
+    padding-left: 35px;
+    
+}
+.mesto
+{
+    font-weight: 500;
+font-size: 28px;
+text-transform: uppercase;
+color: white;
+padding-bottom: 2px;
+}
+.ocenka
+{
+    font-family: 'Chandra', sans-serif;
+}
+.mest1
+{
+    text-align: left;
+    margin-top: 223px;
+    padding-left: 35px;
+}
+.valeria
+{
+    height: 605px;  
+    background-repeat: no-repeat;
+    padding-top: 452px;
+
+    
+    
+}
+.zayvka
+{
+    border-radius: 30px;
+    width: 1120px;
+    height: 133px;
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+    
+}
+.vopros
+{
+    float: left;
+    font-weight: 400;
+font-size: 24px;
+text-transform: uppercase;
+width: 236px;
+margin:38px 79px 0px 49px;
+
+}
+
+.nomer
+{
+    float: left;
+    font-weight: 300;
+font-size: 16px;
+width: 198px;
+height: 58;
+margin:38px 79px 38px 0px;
+
+
+
+}
+.tele
+{
+    float: left;
+    width: 144px;
+height: 49px;
+font-weight: 400;
+font-size: 12px;
+color: #bdbdbd;
+margin: 42px 79px 42px 0px;
+}
+.otpr
+{
+    float: left;
+    font-weight: 500;
+font-size: 16px;
+text-transform: uppercase;
+color: white;
+border-radius: 30px;
+ border-style: solid;
+  border-color: #6a6a6a; 
+  padding: 11px 29px;
+  background-color: red;
+  margin:46px 78px 0px 0px
+
 }
