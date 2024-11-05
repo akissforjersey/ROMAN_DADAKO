@@ -1,4 +1,4 @@
-body{font-family: 'Roboto', sans-serif;}
+body{font-family: 'Roboto', sans-serif; }
 
 .cont 
     {width: 1200px;  margin: 0 auto; font-family: 'Roboto'; text-transform: uppercase; font-size: 14px;}
@@ -199,6 +199,7 @@ div.tur1 div.info
     padding-top: 72px;
     font-family: 'Millanova', sans-serif;
     color: #D4D4D4;
+    text-transform: none;
     
 }
 
@@ -300,7 +301,7 @@ padding-bottom: 2px;
 }
 .valeria
 {
-    height: 605px;  
+      
     background-repeat: no-repeat;
     padding-top: 452px;
 
@@ -336,7 +337,7 @@ margin:38px 79px 0px 49px;
 font-size: 16px;
 width: 198px;
 height: 58;
-margin:38px 79px 38px 0px;
+margin:39px 79px 0px 0px;
 
 
 
@@ -363,6 +364,66 @@ border-radius: 30px;
   border-color: #6a6a6a; 
   padding: 11px 29px;
   background-color: red;
-  margin:46px 78px 0px 0px
+  margin:46px 0px 0px 0px
 
+}
+.name{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-bottom: 5px;
+    margin-bottom: 11px;
+}
+.nomber{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-bottom: 5px;
+}
+.otzyv{
+    text-align: center;
+    margin-top: 30px;
+}
+.kart{
+    padding-bottom: 682px;
+}
+.otzyv1, .otzyv2, .otzyv3{
+border-radius: 30px;
+background-color: #F8F8F8;
+margin-top: 67px;
+padding: 27px 24px 32px;
+float: left;
+width: 352px;
+box-sizing:border-box;
+
+}
+.otzyv1, .otzyv2{
+    margin-right: 72px ;
+    
+}
+
+.otzyv img:first-of-type{
+    border-radius: 50px;
+    text-align: center;
+}
+.letal, .iz{
+    font-weight: 300;
+font-size: 12px;
+text-align: center;
+color: #6b6b6b;
+padding-top: 5px;
+}
+.letal{
+    text-transform: none;
+}
+.otzyv img:last-of-type{
+    margin: 18px 0px 4px;
+
+}
+.koment{
+    white-space: pre-wrap;
+    text-align: left;
+    font-weight: 300;
+font-size: 16px;
+line-height: 137%;
+text-transform: none;
+margin-top: 20px;
 }
