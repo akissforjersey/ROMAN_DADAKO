@@ -80,82 +80,45 @@ div.tur1
 
 }
 
-div.venecy 
-{float: left;
+.venecy, .cappa, .rim, .dubai{
+    float: left;
      width: 256px; 
      height: 340px;
-    margin-right: 58px; 
     background-repeat: no-repeat; 
     border-radius: 30px;
-
 }
-
-div.cappa 
-{ float: left; 
-     width: 256px;
-      height: 340px;
-       background-repeat: no-repeat;
+.venecy, .cappa, .rim{
     margin-right: 58px;
-     border-radius: 30px;
-
 }
-
-div.rim 
-{
-    float: left;  width: 256px; 
-    height: 340px; 
-    background-repeat: no-repeat;
-     margin-right: 58px;
-      border-radius: 30px;
-
-}
-
-div.dubai 
-{
-   float: left;  width: 256px; 
-   height: 340px; 
-    background-repeat: no-repeat; 
-   border-radius: 30px;
-}
-
-div.tur1 div.price {
+.price {
     font-weight: 300;
   font-size: 14px;
   text-transform: none;
   
 }
 
-div.tur1 div.price span:first-of-type
-{
-   border-style: solid;
-   border-width: 1px;
-   border-radius: 30px;
-   border-color: white;
-   padding: 3px 10px;
-}
-
-div.tur1 div.price span:last-of-type
-{
+.price span{
     border-style: solid;
     border-width: 1px;
     border-radius: 30px;
     border-color: white;
     padding: 3px 10px;
+    color: white;
 }
   
-div.tur1 div.date 
+.date 
 {
     margin-top: 229px; 
     color: white;
 }
 
-div.tur1 div.date p:first-of-type
+.date p:first-of-type
 {
-    font-weight: 500;
+font-weight: 500;
 font-size: 14px;
 text-transform: uppercase;
 }
-div.tur1 div.date p:nth-child(2)
+.date p:nth-child(2)
 {
     font-weight: 500;
 font-size: 14px;
@@ -174,7 +137,7 @@ color: white;
 
 }
 
-div.tur1 div.info 
+.info 
 {
     margin-left: 20px;
     text-align: left;
@@ -222,7 +185,7 @@ div.pop
     margin-top: 28px;
     height: 700px;
 }
-div.ritz 
+.ritz 
 {
     float: left;
     width: 460px;
@@ -230,24 +193,27 @@ div.ritz
     border-radius: 30px;
     margin-right: 32px;
     margin-top: 30px;
+    background-repeat: no-repeat;
 }
 
-div.villa 
+.villa 
 {
     float: left;
     width: 544px;
     height: 400px;
     border-radius: 30px;
     margin-right: 32px;
+    background-repeat: no-repeat;
 }
 
-div.ikos
+.ikos
 {
     float: left;
     width: 460px;
     height: 340px;
     border-radius: 30px;
     margin-top: 30px;
+    background-repeat: no-repeat;
 }
 
 div.rate 
