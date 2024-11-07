@@ -513,3 +513,76 @@ margin-top: 20px;
 .team{
     text-align: left;
 }
+.contact{
+    margin-top: 80px;
+    height: 216px;
+    border-width: 1px;
+    border-color: #D4D4D4;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    margin-bottom: 140px;
+    
+
+}
+.social, .numb-mail, .adres, .wall{
+    float: left;
+}
+.wall{
+    width: 1px;
+    height: 63px;
+    background-color:  #D4D4D4;
+    margin-top: 75px;
+}
+.social-head{
+     font-weight: 500;
+     font-size: 24px;
+     text-transform: uppercase;
+     text-align: center;
+     padding-bottom: 27px;
+}
+.numb-mail{
+    padding: 42px 55px 42px 55px;
+}
+.social{
+    padding: 65px 75px 65px 55px;
+}
+.adres{
+    padding: 55px;
+    
+}
+.cotnact-text{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 162%;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.numb-mail p:last-of-type{
+    text-decoration: underline;
+    padding-top: 6px;
+
+}
+.almostbot{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 180px;
+    padding-bottom: 219px;
+}
+.almostbot .vopros{
+    width: 305px;
+    margin-right: 68px;
+}
+
+.almostbot .nomer{
+     text-transform: none;
+     margin-right: 50px;
+}
+.bottom{
+    height: 447px;
+    background-color: #222222;
+    border-radius: 30px 30px 0 0;
+    margin-top: -50px;
+}
