@@ -1,0 +1,9 @@
+@media print {
+       .menu, .banner {
+        width: 20%;
+       }
+       
+       .text {
+        margin: 0   20% ;
+       }
+}

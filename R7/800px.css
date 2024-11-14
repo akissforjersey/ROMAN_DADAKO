@@ -1,0 +1,13 @@
+@media screen and (max-width:800px) {
+    .menu { 
+         width: 50%;
+         
+    }
+    .banner {
+        
+        width: 50%;
+    }
+    .text {
+        margin: 0;
+    }
+}
