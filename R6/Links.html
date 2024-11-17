@@ -11,37 +11,105 @@
             font-size: 20px;
             text-transform:uppercase;
             font-family: 'ROBOTO', sans-serif;
+            margin: 0 auto;
+            padding: 0;
+            box-sizing: border-box;
+            
+        
+        }
+        .type1, .type2, .type3, .type4, .type5, .type6, .type7 {
+            height: 100px;
         }
         a {
             text-decoration: none;
         }
         a:hover {
             color: red;
-            box-shadow: 3px 5px 10px  rgba(200, 20, 150, 0.1);
-            
-        }
-        .type1 li {
+            box-shadow: 3px 5px 10px  rgba(255, 0, 50, 0.5); 
+        } 
+        [href^="http"]{
+            background-color: silver;
             float: left;
             padding-left: 100px;
             padding-right: 100px;
             height: 50px;
-            padding-top: 25px;  
-            
-            
+            padding-top: 13px;  
         }
-        .type1 li:first-of-type, li:nth-of-type(2){
-            border-right: solid 5px red;  
+        [href^="http"]{
+            border-right: solid 5px red;
         }
-        
+        [alt=palk]{
+            height: 50px;
+            float: left;   
+        }
+        .type5 a, .type6 a{
+            border: none; 
+        } 
+        .border {
+            background-color: red;
+            height: 50px;
+            width: 5px;
+            float: left;
+        }   
+        .type7 div{
+            background: url('palk.jpg')
+            no-repeat top right;
+        } 
     </style>
 </head>
 <body>
-    <div class="type1">
+    <div class="type1"> 
         <ul type="none">
+            <!-- Через список ul, разделяет border, необходимо убрать стиль и падинг -->
             <li><a href="https://cars.av.by/bmw/m2/112703278">BMW M2 F87</a></li>
             <li><a href="https://cars.av.by/bmw/m3/111192733">BMW M3 G80</a></li>
             <li><a href="https://cars.av.by/bmw/m4/112703235">BMW M4 F82</a></li>
         </ul>
+        
     </div>
+    <div class="type2">
+          <!-- Через тег p, c разделением border -->
+           <p><a href="https://cars.av.by/bmw/m2/112703278">BMW M2 F87</a></p>
+           <p><a href="https://cars.av.by/bmw/m3/111192733">BMW M3 G80</a></p>
+           <p><a href="https://cars.av.by/bmw/m4/112703235">BMW M4 F82</a></p>
+    </div>
+    <div class="type3"> 
+        <!-- Самый простой способ,тегом a, не треубется флот, резделяет border -->
+           <a href="https://cars.av.by/bmw/m2/112703278">BMW M2 F87</a>
+           <a href="https://cars.av.by/bmw/m3/111192733">BMW M3 G80</a>
+           <a href="https://cars.av.by/bmw/m4/112703235">BMW M4 F82</a>
+    </div>
+    <div class="type4">
+           <!-- Аналогично, как через тег p, разделением border -->
+          <div><a href="https://cars.av.by/bmw/m2/112703278">BMW M2 F87</a></div>
+          <div><a href="https://cars.av.by/bmw/m3/111192733">BMW M3 G80</a></div>
+          <div><a href="https://cars.av.by/bmw/m4/112703235">BMW M4 F82</a></div>
+    </div>
+    <div class="type5">
+           <!-- Через div,  разделением картинкой, здесь вдобавок нужно зафлотить img, требуется подогнать картинку по размеру.-->
+          <div><a href="https://cars.av.by/bmw/m2/112703278">BMW M2 F87</a><img src="palk.jpg" alt="palk"></div>
+          <div><a href="https://cars.av.by/bmw/m3/111192733">BMW M3 G80</a><img src="palk.jpg" alt="palk"></div>
+          <div><a href="https://cars.av.by/bmw/m4/112703235">BMW M4 F82</a><img src="palk.jpg" alt="palk"></div>
+    </div>
+    <div class="type6">
+           <!-- Через div,  разделением div,у которого закрываем фон, здесь вдобавок нужно зафлотить div,можно сделать через теги в первых трех вариантах-->
+          <div><a href="https://cars.av.by/bmw/m2/112703278">BMW M2 F87</a>
+          <div class="border"></div>
+           </div>
+          <div><a href="https://cars.av.by/bmw/m3/111192733">BMW M3 G80</a>
+           <div class="border"></div>
+           </div>
+           <div><a href="https://cars.av.by/bmw/m4/112703235">BMW M4 F82</a>
+            <div class="border"></div>
+        
+           </div>
+    </div>
+    <div class="type7">
+        <!-- Через div,  разделением через фон, который позицонируем. Требуется загрузить фон. -->
+       <div><a href="https://cars.av.by/bmw/m2/112703278">BMW M2 F87</a></div>
+       <div><a href="https://cars.av.by/bmw/m3/111192733">BMW M3 G80</a></div>
+       <div><a href="https://cars.av.by/bmw/m4/112703235">BMW M4 F82</a></div>
+       
+ </div>
 </body>
 </html>
