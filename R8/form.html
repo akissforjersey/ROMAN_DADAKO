@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../FONTS/stylesheet.css">
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0 auto;
+
+    }
+
+    .ff {
+        width: 800px;
+        background-color: bisque;
+        color: aliceblue;
+        background-color: rgb(18, 18, 77);
+        font-size: 20px;
+        margin-top: 200px;
+        border-radius: 3%;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    input:hover {
+        cursor: pointer;
+    }
+
+    .form p:first-child {
+        margin-bottom: 10px;
+        margin-left: 10px;
+        padding-top: 30px;
+
+    }
+
+    .name span {
+        padding-right: 100px;
+        margin-left: 20px;
+    }
+
+    .name input {
+        width: 500px;
+    }
+
+    .rub span {
+        padding-right: 198px;
+        margin-left: 20px;
+    }
+
+    .rub select {
+        transform: scale(1.2);
+    }
+
+    .pub span:first-child {
+        margin-left: 20px;
+        padding-right: 145px;
+    }
+
+    .pub span:not(span:first-child) {
+        padding-right: 15px;
+        padding-left: 6px;
+        font-size: 15px;
+    }
+
+    .pub input {
+        transform: scale(1.2);
+    }
+
+    .com span {
+        margin-left: 20px;
+        padding-right: 25px;
+    }
+
+    .com input {
+        transform: scale(1.7);
+
+    }
+
+    .txt textarea {
+        width: 750px;
+        height: 70px;
+    }
+
+    .txt span,
+    textarea {
+        margin-left: 20px;
+    }
+
+    .send {
+        margin-left: 20px;
+        font-size: 25px;
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+
+    .send:hover {
+        color: blueviolet;
+        background-color: aquamarine;
+
+    }
+
+    @media screen and (max-width: 800px) {
+        .ff {
+            width: 400px;
+            
+        }
+        .rub select{
+            margin-left: 49px;
+            width: 300px;
+            
+        }
+        .name input{
+            margin-left: 20px;
+            width: 360px;
+        }
+        .txt textarea{
+            width: 360px;
+        }
+        .send {
+            margin-bottom: 40px;
+        }
+        .pub label{
+            display: block;
+            margin-left: 20px;
+            
+        }
+        .pub input{
+            transform: scale(1); 
+        }
+    }
+</style>
+
+<body>
+    <div class="ff">
+        <form action="https://fe.it-academy.by/TestForm.php " method="get" class="form">
+            <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
+            <label class="name">
+                <span>Название статьи:</span>
+                <input type="text" name="statya"><br>
+            </label>
+            <label class="rub">
+                <span>Рубрика:</span>
+                <select name="rubrika" size="1">
+                    <option value="1">компьютерная техника</option>
+                    <option value="2">графика и дизайн</option>
+                    <option value="3">программирование</option>
+                </select><br>
+            </label>
+            <label class="pub">
+                <span>Публикация:</span>
+                <label>
+                <input type="radio" name="gde" value="1"><span>на сайте</span>
+                </label>
+                <label>
+                    <input type="radio" name="gde" value="2"><span>в журнале</span>
+                </label>
+                <label>
+                    <input type="radio" name="gde" value="3"><span>на сайте и в журнале</span><br>
+                </label>
+            </label>
+            <label class="com">
+                <span>Разрешить комментарии:</span>
+                <input type="checkbox" name="comment"><br>
+            </label>
+            <label class="txt">
+                <span>Текст статьи:</span>
+                <textarea name="text"></textarea><br>
+            </label>
+            <input type="submit" value="Опубликовать" class="send">
+
+        </form>
+    </div>
+</body>
+
+</html>
