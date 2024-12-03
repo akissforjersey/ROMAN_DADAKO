@@ -1,0 +1,16 @@
+@media screen and (max-width:1000px) {
+   .main {
+    margin-left: 400px;
+   }
+   .menu {
+    width: 400px;
+    padding-left: 50px;
+    padding-top: 30px;
+   }
+   .menu h2{
+       font-size: 25px;
+   }
+   .menu ul{
+     font-size: 23px;
+   }
+}
