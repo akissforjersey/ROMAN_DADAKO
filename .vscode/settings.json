@@ -1,5 +1,9 @@
 {
     "editor.guides.bracketPairs": "active",
     "editor.bracketPairColorization.enabled": true,
-    "indentRainbow.colorOnWhiteSpaceOnly": false
+    "indentRainbow.colorOnWhiteSpaceOnly": false,
+    "css.hover.references": true,
+    "editor.quickSuggestionsDelay": 10,
+    "editor.hover.hidingDelay": 1500,
+    "editor.hover.delay": 1500
 }

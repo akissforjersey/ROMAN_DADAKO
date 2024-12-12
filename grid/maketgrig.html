@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0 auto;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        div li span {
+            color: blue;
+        }
+
+        h1 {
+            color: blue;
+            text-align: center;
+            background-color: skyblue;
+            padding-top: 13px;
+
+        }
+
+        .H1 {
+            grid-column: span 2;
+            grid-row: 1;
+            background-color: skyblue;
+            width: 100%;
+
+
+        }
+
+        .maket {
+            display: grid;
+            grid-template-columns: minmax(200px, auto) 1fr;
+            grid-template-rows: 60px minmax(auto, auto) 90px;
+        }
+
+        .menu {
+            background-repeat: repeat-y;
+            grid-column: 1;
+            grid-row: 2;
+            background-color: yellow;
+            padding: 30px 20px 30px 40px;
+        }
+
+        .main {
+            background-color: rgb(255, 255, 255);
+            padding-left: 30px;
+            padding-top: 20px;
+            padding-bottom: 30px;
+            background-image: url('ball.png');
+            background-position: right top;
+            background-repeat: repeat-y;
+            position: relative;
+            grid-column: 2;
+            grid-row: 2;
+        }
+
+        .foot {
+            grid-column: 1 / 3;
+            grid-row: 3;
+            width: 100%;
+            text-align: center;
+            padding-top: 25px;
+
+        }
+
+        .menu h2 {
+            font-weight: 750;
+            font-size: 17px;
+            padding-bottom: 10px;
+        }
+        img {
+            float: left; padding-right: 25px; padding-bottom: 20px;
+        }
+
+        .menu ul {
+            font-size: 17px;
+            text-decoration: underline;
+            padding-right: 10px;
+        }
+
+        .wait {
+            width: 130px;
+            height: 50px;
+            font-size: 16px;
+            text-align: center;
+            background-color: green;
+            box-sizing: border-box;
+            padding: 7px;
+            text-decoration: underline;
+            white-space: pre-wrap;
+            position: absolute;
+            position: right top;
+            top: 30px;
+            right: 30px;
+            z-index: 1;
+            
+        }
+
+        .wait a {
+            color: blue;
+        }
+        @media all and (max-width: 700px) {
+            .H1 {
+                display: none;
+            }
+            .foot {
+                display: none;
+            }
+            .maket {
+                grid-template-columns: 1fr;
+                grid-template-rows: minmax(auto, auto) ;
+            }
+            .menu{
+                grid-row: 2;
+                grid-column: 1;
+                width: 100%;
+                background-color: white;
+                padding: 30px;
+            }
+            .main {
+                grid-row: 1;
+                grid-column: 1;
+                padding: 30px;
+                background-image: none;
+                
+            }
+            img {
+                width: 100%;
+                padding: 20px 0 20px 0;
+            }
+
+        }
+    </style>
+    <link rel="stylesheet" href="adapt.css">
+</head>
+
+<body>
+    <div class="maket">
+        <div class="H1" style="position: relative;">
+            <div class="wait"><a href="">ВСТУПИТЬ
+                    В КЛУБ</a></div>
+            <h1>
+                ПРИВЕТ УЧАСТНИКАМ СОРЕВНОВАНИЙ</h1>
+        </div>
+        <div class="menu">
+            <h2>Виды спорта:</h2>
+            <ul>
+                <li><span>конькобежный спорт</span></li>
+                <li><span>биатлон</span></li>
+                <li><span>футбол</span></li>
+                <li><span>стрельба из лука</span></li>
+                <li><span>прыжки в длину</span></li>
+                <li><span>прыжки в высоту</span></li>
+                <li><span>фигурное катание</span></li>
+                <li><span>синхронное плавание</span></li>
+                <li><span>шахматы</span></li>
+                <li><span>шашки</span></li>
+            </ul>
+        </div>
+        <div class="main">
+
+            <h3 style="text-align: center; font-size: 30px; font-weight: 700; margin-top: 0px;">ФУТБОЛ</h3>
+            <img src="footbal.png" alt="кубок" >
+            <p style="font-size: 20px;">Футбол &mdash; командный вид спорта, в котором целью является забить мяч в
+                ворота соперника ногами или другими частями тела (кроме рук) большее количество раз, чем команда
+                соперника</p>
+            <p style="font-size: 20px; padding-top: 20px;">Есть 17 официальных правил игры, каждоем из которых содержит
+                список оговорок и руководящих принципов. Эти правила предназначены для применения на всех уровнях
+                футбола, хотя есть некоторые изменения для таких групп, как юниоры, взрослые, женщины и люди с
+                ограничеными физическими возможностями. Законы очень часто формулировались в общих чертах, которые
+                позволят упростить их применения в зависимости от характера игры.
+            </p>
+        </div>
+
+        <div class="foot" style="background-color: skyblue; font-size: 30px; color: blue; font-weight: 600;">
+            <p>ГЛАВНОЕ НЕ ПОБЕДА, А УЧАСТИЕ!</p>
+        </div>
+    </div>
+
+
+
+
+
+    </div>
+</body>
+
+</html>
