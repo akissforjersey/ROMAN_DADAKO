@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .anim {
+        width: 70px;
+        height: 80px;
+        background: url('a194c-ken.webp');
+        animation: anim 3s steps(4) infinite;
+       
+            
+
+            margin: 0 auto;
+           margin-top: 300px;
+
+    }
+
+    .anim:hover {
+        transform: scale(3);
+        
+    }
+
+    @keyframes anim {
+        0% {
+            background-position: 0 0;
+        }
+        29% {
+            background-position: -280px 0;
+        }
+        29.9% {
+            background-position: 0 0;
+        }
+
+        30% {
+            background-position: 0px -80px;
+        }
+
+        49.9% {
+            background-position: -280px -80px;
+        }
+
+        50% {
+            background-position: 0px -240px;
+        }
+
+        59.9% {
+            background-position: -280px -240px;
+        }
+        60% {
+            background-position: 0px -480px;
+        }
+
+        69.9% {
+            background-position: -280px -480px;
+        }
+
+        70% {
+            background-position: 0px -560px;
+        }
+
+        79.9% {
+            background-position: -280px -560px;
+        }
+        80% {
+            background-position: 0 -640px;
+        }
+        89% {
+            background-position: -280px -640px;
+        }
+        99.9% {
+            background-position: 0 -640px;
+        }
+        100% {
+            background-position:0 0;
+        }
+        
+
+
+    } 
+</style>
+
+<body>
+    <div class="anim"></div>
+</body>
+
+</html>
