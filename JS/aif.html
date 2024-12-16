@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        var LastName = prompt('Введите вашу фамилию');
+        var FirstName = prompt('Введите ваше имя');
+        var Name = prompt('Введите ваше отчество');
+        var AgeOur = prompt('Сколько вам полных лет');
+        var Age = parseInt(AgeOur);
+        var GenPol = confirm('ваш пол - Женский?');
+        var GenW = 'Женский';
+        var GenM = 'Мужской';
+        var Pension;
+        var Day = (Age * 365);
+        var AgeWait = (Age + 5);
+        var Gen;
+
+        if (GenPol) {
+            Gen = GenW;
+            if
+                (Age >= 58) { Pension = 'Даааа'; }
+            else { Pension = 'Неа'; }
+        }
+        else {
+            Gen = GenM;
+            if
+                (Age >= 63) { Pension = 'Да'; }
+            else { Pension = 'Нет'; }
+        }
+        alert
+            (
+                "Ваше ФИО: " + LastName + ' ' + FirstName + ' ' + Name +
+                "\nВаш возраст в годах: " + Age +
+                '\nВаш возраст в днях: ' + Day +
+                '\nЧерез 5 лет вам будет: ' + AgeWait +
+                '\nВаш пол: ' + Gen +
+                '\nВы на пенсии: ' + Pension
+            );
+    </script>
+</body>
+
+</html>
