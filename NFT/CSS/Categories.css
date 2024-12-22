@@ -1,0 +1,94 @@
+h4 {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    text-transform: capitalize;
+    margin: 100px 0 60px 0;
+}
+
+.Categories_list {
+    display: grid;
+    grid-template-columns: repeat(4, 240px);
+    grid-template-rows: repeat(2, 316px);
+    justify-content: space-between;
+    grid-row-gap: 30px;
+    margin-bottom: 80px;
+    position: relative;
+    
+    
+}
+.Categories_list svg{
+       margin: 70px;
+       
+}
+
+
+.Collectibles{
+    background-image: url('../Image/categories/monkey.png');
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 240px;
+ 
+}
+.Music{
+    background-image: url('../Image/categories/music.png');
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 240px;
+    
+     
+}
+.Video{
+    background-image:  url('../Image/categories/video.png');
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 240px;
+}
+.Utility{
+    background-image:  url('../Image/categories/utility.png');
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 240px;
+}
+.Sport{
+    background-image:  url('../Image/categories/sport.png');
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 240px;
+}
+.Virtual{
+    background-image:  url('../Image/categories/virtual.png');
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 240px;
+}
+.Photography{
+    background-image:  url('../Image/categories/photo.png');
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 240px;
+}
+.art {
+    background-image: url('../Image/categories/Placeholder.png');
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 240px;
+    
+    
+}
+.art, .Collectibles, .Music, .Video, .Utility, .Sport, .Virtual, .Photography {
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    height:316px;
+    position: relative;
+    
+}
+.Categories_list p {
+    padding: 20px 30px 25px 30px;
+    width: 240px;
+    height: 76px;
+    box-sizing: border-box; 
+    
+}
+
+ 

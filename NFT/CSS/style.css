@@ -1,0 +1,239 @@
+body {
+    background-color: #2B2B2B;
+    box-sizing: border-box;
+    font-family: 'Work sans', serif;
+    color: #FFFFFF;
+
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.menu_main li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-right: 10px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    width: 139px;
+    height: 46px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+}
+
+.header {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+
+}
+
+.logo {
+    margin-left: 50px;
+    height: 32px;
+}
+
+.log {
+    padding-bottom: 5px;
+    padding-right: 12px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.menu_main {
+    display: flex;
+    flex-direction: row;
+    type: none;
+}
+
+.signup svg {
+    float: left;
+
+}
+
+.signup {
+    padding: 0px 30px;
+    width: 152px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    margin-right: 50px;
+
+}
+
+.post {
+    height: 544px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.acmini img {
+    float: left;
+}
+
+.acount {
+    border-radius: 0 0 20px 20px;
+    padding: 20px;
+    width: 510px;
+    height: 109px;
+    background-color: #3B3B3B;
+    box-sizing: border-box;
+    margin-top: -5px;
+}
+
+.acwrap {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.acmini {
+    padding-top: 10px;
+}
+
+.cosmo img[alt="Cosmos"] {
+    border-radius: 20px 20px 0 0;
+    width: 510px;
+}
+
+.nameus {
+    margin-left: 36px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.getstarted {
+
+    padding: 0px 50px;
+    width: 224px;
+    margin-bottom: 30px;
+}
+
+.getstarted svg {
+    float: left;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 67px;
+    line-height: 110%;
+    text-transform: capitalize;
+    white-space: pre-wrap;
+    margin: 0;
+}
+
+
+.bodytext {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    text-transform: capitalize;
+    white-space: pre-wrap;
+    margin: 20px 0 30px 0;
+}
+
+.post {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.folow {
+    border-radius: 20px;
+    width: 510px;
+    height: 77px;
+
+
+}
+
+.folow ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.folow li {
+    display: flex;
+    flex-direction: column;
+}
+
+.folow li p:first-of-type {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 140%;
+    text-transform: capitalize;
+    font-family: 'Space Mono', serif;
+}
+
+.folow li p:last-of-type {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    text-transform: capitalize;
+    margin: 80px 0 10px 0;
+}
+
+.collection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 80px;
+    margin-top: 60px;
+
+}
+
+.collection img:last-child {
+    float: left;
+}
+
+.caseone,
+.casetwo,
+.casethree {
+    border-radius: 20px;
+    width: 330px;
+    height: 525px;
+}
+
+.collection img:first-child {
+    margin-bottom: 15px;
+}
+
+.collection img:nth-child(3) {
+    margin: 0 15px 0 10px;
+}
+
+.collection p:first-child {
+    margin: 15px 0 10px 0;
+}
+
+.view_rank {
+    float: right;
+}
+
+
