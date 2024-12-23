@@ -1,0 +1,77 @@
+.footer_subs {
+    position: relative;
+    width: 425px;
+}
+
+.footer {
+    background-color: #3B3B3B;
+    padding: 40px 0px;
+}
+
+.footer_first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+.footer_first a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #ccc;
+    text-decoration: none;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: white;
+    padding-bottom: 25px;
+}
+
+.contact img:last-of-type {
+    margin-top: 15px;
+}
+
+.contact img:first-of-type {
+    margin-bottom: 5px;
+}
+
+.contact p:first-of-type {
+    padding: 30px 0 20px 0;
+}
+
+.explore p:first-of-type {
+    padding-bottom: 20px;
+}
+
+.explore p:last-of-type {
+    padding-top: 20px;
+}
+
+.footer_subs input {
+    margin-top: 20px;
+
+}
+
+.footer_subs button {
+    position: absolute;
+    bottom: 23px;
+    right: 0px;
+    text-align: center;
+
+}
+
+.footer_last {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 110%;
+    color: #ccc;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+
+}

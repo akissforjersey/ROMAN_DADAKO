@@ -235,5 +235,15 @@ h2 {
 .view_rank {
     float: right;
 }
-
+.trend {
+    margin: 160px 0 140px 0;
+}
+.fon {
+    background: url('../Image/marketplaceimg/PlaceHolder.png');
+    background-repeat: no-repeat;
+    height: 900px;
+    background-size: 100%;
+    
+    
+}
 

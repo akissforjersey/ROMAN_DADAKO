@@ -1,0 +1,23 @@
+.setup_wallet, .start_earning, .create_collection {
+    border-radius: 20px;
+padding: 10px 30px 30px 30px;
+width: 330px;
+height: 439px;
+background-color: #3B3B3B;
+box-sizing: border-box;
+}
+.work_step {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   margin: 60px 0 100px 0;
+   text-align: center;
+}
+.work_step p:first-of-type{
+    margin: 20px 0 10px 0 ;
+
+}
+.work_step p:last-of-type{
+    margin:0;
+
+}

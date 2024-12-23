@@ -1,0 +1,56 @@
+.inemail{
+    border-radius: 20px;
+    padding: 16px 0px 16px 20px;
+    width: 417px;
+    height: 59px;
+    border: none;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    float: left;
+}
+
+.subscribe_btn {
+    border-radius: 20px;
+    padding: 0px 50px;
+    position: absolute;
+    height: 60px;
+    bottom: 79px;
+    right: 0px;
+    width: 211px;
+
+
+
+}
+
+.inemail:focus {
+    color: #212529;
+    background-color: #fff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+.subscribe_text {
+    width: 425px;
+    height: 430px;
+    position: relative;
+    
+
+}
+
+.subscribe_btn img {
+    float: left;
+    padding-top: 1px;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    padding: 60px;
+    height: 430px;
+    margin: 140px 0 100px 0 ;
+}
