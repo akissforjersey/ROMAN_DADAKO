@@ -1,0 +1,23 @@
+.ournft:active {
+    border-bottom: 2px solid #858584;
+}
+.ournft {
+    padding: 0px 30px;
+    width: 525px;
+    height: 60px;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: 600;
+font-size: 22px;
+line-height: 140%;
+text-transform: capitalize;
+
+
+}
+.dayfilter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 80px;
+}
