@@ -23,6 +23,7 @@
     text-decoration: none;
 }
 
+
 h5 {
     font-weight: 700;
     font-size: 22px;
@@ -32,12 +33,13 @@ h5 {
     padding-bottom: 25px;
 }
 
-.contact img:last-of-type {
+.contact img[alt="Icons"]{
     margin-top: 15px;
 }
 
-.contact img:first-of-type {
+.Logfooter{
     margin-bottom: 5px;
+    
 }
 
 .contact p:first-of-type {
@@ -59,7 +61,7 @@ h5 {
 
 .footer_subs button {
     position: absolute;
-    bottom: 23px;
+    bottom: 26px;
     right: 0px;
     text-align: center;
 
