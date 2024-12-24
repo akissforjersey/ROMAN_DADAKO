@@ -1,0 +1,65 @@
+.wallet-cosmo {
+    background-image: url('../Image/wallet/station.png');
+    background-repeat: no-repeat;
+    width: 610px;
+    height: 642px;
+
+}
+
+
+.wallet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.wallet-main{
+
+    margin:20px  300px 0 0;
+}
+.wallet-form-btn img{
+    float: left;
+    padding-right: 20px;
+    
+}
+.wallet-form-btn{
+    border: 1px solid #A259FF;
+border-radius: 20px;
+padding: 0px 20px 0px 40px;
+width: 320px;
+height: 72px;
+background-color: #3B3B3B;
+transition: transform ease-in 0.2s;
+
+}
+.wallet-form-btn p{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    text-transform: capitalize;
+    text-align: left;
+    color: #ffffff;
+    padding-top: 5px;
+}
+.wallet-form:nth-of-type(2){
+    margin: 20px 0 20px 0;
+}
+
+
+.wallet-form-btn:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #A259FF;
+  }
+  
+  .wallet-form-btn:hover {
+    color: #ffee10;
+    box-shadow: 0 0 10px #A259FF;
+    text-shadow: 0 0 5px #ffee10;
+    cursor: pointer;
+  }
+  .wallet-form-btn:active{
+    transform: scale(0.9);
+    
+  }
+  
+  
