@@ -1,0 +1,140 @@
+.ournft:active {
+    border-bottom: 2px solid #858584;
+
+}
+
+
+.ournft {
+    padding: 0px 30px;
+    width: 525px;
+    height: 60px;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    margin: 30px 0 0 0;
+
+
+}
+
+.ournft span:first-of-type {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    text-transform: capitalize;
+    text-align: center;
+    padding-right: 16px;
+
+
+
+}
+
+.ournft span:last-of-type {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    border-radius: 20px;
+    padding: 5px 10px;
+    background-color: #3B3B3B;
+    width: 50px;
+    height: 32px;
+    font-family: 'Space Mono', serif;
+}
+
+.catalog2 {
+    float: right;
+}
+
+.lap1 {
+    background-image: url('../Image/marketplaceimg/page/mashroom0325.png');
+}
+
+.lap2 {
+    background-image: url('../Image/marketplaceimg/page/haprob032.png');
+}
+
+.lap3 {
+    background-image: url('../Image/marketplaceimg/page/haprob024.png');
+}
+
+.lap4 {
+    background-image: url('../Image/marketplaceimg/page/beaR.png');
+}
+
+.lap5 {
+    background-image: url('../Image/marketplaceimg/page/dog0356.png');
+}
+
+.lap6 {
+    background-image: url('../Image/marketplaceimg/page/robots0321.png')
+}
+
+.lap7 {
+    background-image: url('../Image/marketplaceimg/page/girl.png');
+}
+
+.lap8 {
+    background-image: url('../Image/marketplaceimg/page/spacetravel.png');
+}
+
+.lap9 {
+    background-image: url('../Image/marketplaceimg/page/sunset.png');
+}
+
+.lap10 {
+    background-image: url('../Image/marketplaceimg/page/deserwalk.png');
+}
+
+.lap11 {
+    background-image: url('../Image/marketplaceimg/page/Ice.png');
+}
+
+.lap12 {
+    background-image: url('../Image/marketplaceimg/page/dog0344.png');
+}
+
+
+
+.search-form {
+    margin: 30px 0 80px 0;
+    position: relative;
+}
+
+.search-form-input {
+    border: 1px solid #858584;
+    border-radius: 20px;
+    padding: 12px 80px 12px 20px;
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    color: #858584;
+    
+    
+}
+.search-form-input:focus{
+    outline: 0;
+    
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+.search-form-btn {
+    
+    position: absolute;
+    right: 20px;
+    top: 18px;
+    line-height: 28px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+}
+.market-fon{
+    background-color: #3B3B3B;
+}
+.discover_more {
+    margin: 0;
+    margin-bottom: 3px;
+    padding: 60px 0 80px 0;
+}
+.astro {
+    background-color: #2B2B2B;
+}

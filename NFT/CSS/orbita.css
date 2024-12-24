@@ -119,3 +119,34 @@ h3{
     row-gap: 60px;
     column-gap: 30px;
 }
+.view_rank {
+    width: 267px;
+    margin-top: -10px;
+}
+.lap1 {
+    background-image: url('../Image/marketplaceimg/page/foxy.png');
+}
+.lap2 {
+    background-image: url('../Image/marketplaceimg/page/cat.png');
+}
+.lap3 {
+    background-image: url('../Image/marketplaceimg/page/dog.png');
+}
+.lap4 {
+    background-image: url('../Image/marketplaceimg/page/beaR.png');
+}
+.lap5 {
+    background-image: url('../Image/marketplaceimg/page/robots.png');
+}
+.lap6 {
+    background-image: url('../Image/marketplaceimg/page/robots0356.png');
+}
+.lap7 {
+    background-image: url('../Image/marketplaceimg/page/robots0321.png');
+}
+.lap8 {
+    background-image: url('../Image/marketplaceimg/page/robots0512.png');
+}
+.lap9 {
+    background-image: url('../Image/marketplaceimg/page/robots0024.png');
+}

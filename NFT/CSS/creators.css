@@ -93,11 +93,15 @@ line-height: 140%;
 text-align: center;
 background-color: #2B2B2B;
 color: #FFFFFF;
-margin-top: -30px;
+margin-top: -80px;
 position: relative;
 }
-.view_rank svg{
+.view_rank img{
     float: left;
+    
+}
+.eye {
+  width: 187px;
 }
 
 

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MarketplaceNFT</title>
+    <title>PageNFT</title>
     <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/normalaze.css">
     <link rel="stylesheet" href="./CSS/style.css">
@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="./CSS/footer.css">
     <link rel="stylesheet" href="./CSS/subs.css">
     <link rel="stylesheet" href="./CSS/orbita.css">
-    <link rel="stylesheet" href="./CSS/market.css">
     <script src="./js/clock.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
@@ -32,7 +31,7 @@
             <a href="nft.html" alt="Home">
                 <img class="nftmarketlogo" src="./Image/NFT Marketplace.svg" alt="NFT">
             </a>
-
+            
         </div>
         <div class="menu">
             <ul class="menu_main">
@@ -54,40 +53,74 @@
 
         </div>
     </div>
+    <div class="fon">
+    </div>
     <div class="container">
-        <div class="browsemarket">
-            <h2>Browse Marketplace</h2>
-            <p class="bodytext">Browse through more than 50k NFTs on the NFT Marketplace.</p>
-            <form action="#" class="search-form">
-                <input type="search" class="search-form-input" placeholder="Search your favourite NFTs" />
-                <button type="submit" class="search-form-btn">
-                    <img src="./Image/svg/search.svg" alt="Search">
-                </button>
-            </form>
-
+        <div class="orbitians">
+            <div class="orbi_text">
+                <h2>The Orbitians</h2>
+                <p class="bodytext">Minted on Sep 30, 2022</p>
+                <p class="bodytextlite">Created By</p>
+                <p class="acmini">
+                    <img src="./Image/Avatar.png" alt="ava">
+                <p class="nameus">Animakid</p>
+                </p>
+                <p class="bodytextlite">Description</p>
+                <p class="bodytext">The Orbitians <br>is a collection of 10,000 unique NFTs on the Ethereum blockchain,<br><br>There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians.<br><br>They live in a metal space machines, high up in the sky and only have one foot on Earth.
+These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target.
+                </p>
+                <p class="bodytextlite">Details</p>
+                <p>
+                    <img src="./Image/svg/browser.svg" alt="browser">
+                    <p class="bodytext">View on Etherscan</p>
+                </p>
+                <p>
+                    <img src="./Image/svg/browser.svg" alt="browser">
+                    <p class="bodytext">View Original</p>
+                </p>
+                <p class="bodytextlite">Tags</p>
+                <ul>
+                    <li>Animation</li>
+                    <li>illustration</li>
+                    <li>moon</li>
+                    <li>moon</li>
+                </ul>
+            </div>
+            <div class="orbi_time">
+                <p>Auction ends in:</p>
+                <div id="id_clock"></div>
+                <script>digitalClock();</script>
+                <ul>
+                    <li>
+                        <p>Hours</p>
+                    </li>
+                    <li>
+                        <p>Minutes</p>
+                    </li>
+                    <li>
+                        <p>Seconds</p>
+                    </li>
+                </ul>
+                <Button class="time klick">
+                    <p>Place Bid</p>
+                </Button>
+            </div>
         </div>
     </div>
     <div class="container">
         <div class="discover">
-            <button class="ournft catalog1">
-                <span>NFTs</span>
-                <span>302</span>
+            <h3>More from this artist</h3>
+            <button class="view_rank">
+                <img src="./Image/svg/strelka.svg" alt="Strelka">
+                <p>Go To Artist Page</p>
             </button>
-            <button class="ournft  catalog2">
-                <span>Collections</span>
-                <span>67</span>
-            </button>
-        </div>
-    </div>
-    <div class="market-fon">
-        <div class="container">
             <div class="discover_more">
                 <div class="astro lap1">
                     <div>
-                        <p class="acwrap">Magic Mushroom 0325</p>
+                        <p class="acwrap">Foxy Life</p>
                         <p class="acmini">
                             <img src="./Image/creators/space.png" alt="ava">
-                        <p class="nameus">Shroomie</p>
+                        <p class="nameus">Spaceone</p>
                         </p>
                         <span class="prace">
                             <p>Price</p>
@@ -101,10 +134,10 @@
                 </div>
                 <div class="astro lap2">
                     <div>
-                        <p class="acwrap">Happy Robot 032</p>
+                        <p class="acwrap">Cat from future</p>
                         <p class="acmini">
                             <img src="./Image/creators/space.png" alt="ava">
-                        <p class="nameus">BeKind2Robots</p>
+                        <p class="nameus">Spaceone</p>
                         </p>
                         <span class="prace">
                             <p>Price</p>
@@ -118,10 +151,10 @@
                 </div>
                 <div class="astro lap3">
                     <div>
-                        <p class="acwrap">Happy Robot 024</p>
+                        <p class="acwrap">Psycho Dog</p>
                         <p class="acmini">
                             <img src="./Image/creators/space.png" alt="ava">
-                        <p class="nameus">BeKind2Robots</p>
+                        <p class="nameus">Spaceone</p>
                         </p>
                         <span class="prace">
                             <p>Price</p>
@@ -138,7 +171,7 @@
                         <p class="acwrap">Designer Bear</p>
                         <p class="acmini">
                             <img src="./Image/creators/space.png" alt="ava">
-                        <p class="nameus">Mr Fox</p>
+                        <p class="nameus">Spaceone</p>
                         </p>
                         <span class="prace">
                             <p>Price</p>
@@ -152,10 +185,10 @@
                 </div>
                 <div class="astro lap5">
                     <div>
-                        <p class="acwrap">Colorful Dog 0356</p>
+                        <p class="acwrap">Dancing Robot 0375</p>
                         <p class="acmini">
                             <img src="./Image/creators/space.png" alt="ava">
-                        <p class="nameus">Keepitreal</p>
+                        <p class="nameus">Spaceone</p>
                         </p>
                         <span class="prace">
                             <p>Price</p>
@@ -169,10 +202,10 @@
                 </div>
                 <div class="astro lap6">
                     <div>
-                        <p class="acwrap">Dancing Robot 0312</p>
+                        <p class="acwrap">Dancing Robot 0356</p>
                         <p class="acmini">
                             <img src="./Image/creators/space.png" alt="ava">
-                        <p class="nameus">Robotica</p>
+                        <p class="nameus">Spaceone</p>
                         </p>
                         <span class="prace">
                             <p>Price</p>
@@ -186,10 +219,10 @@
                 </div>
                 <div class="astro lap7">
                     <div>
-                        <p class="acwrap">Cherry Blossom Girl 035</p>
+                        <p class="acwrap">Dancing Robot 0321</p>
                         <p class="acmini">
                             <img src="./Image/creators/space.png" alt="ava">
-                        <p class="nameus">MoonDancer</p>
+                        <p class="nameus">Spaceone</p>
                         </p>
                         <span class="prace">
                             <p>Price</p>
@@ -203,10 +236,10 @@
                 </div>
                 <div class="astro lap8">
                     <div>
-                        <p class="acwrap">Space Travel</p>
+                        <p class="acwrap">Dancing Robot 0512</p>
                         <p class="acmini">
                             <img src="./Image/creators/space.png" alt="ava">
-                        <p class="nameus">NebulaKid</p>
+                        <p class="nameus">Spaceone</p>
                         </p>
                         <span class="prace">
                             <p>Price</p>
@@ -220,61 +253,10 @@
                 </div>
                 <div class="astro lap9">
                     <div>
-                        <p class="acwrap">Sunset Dimension</p>
+                        <p class="acwrap">Dancing Robot 0024</p>
                         <p class="acmini">
                             <img src="./Image/creators/space.png" alt="ava">
-                        <p class="nameus">Animakid</p>
-                        </p>
-                        <span class="prace">
-                            <p>Price</p>
-                            <p class="monet">1.63 ETH</p>
-                        </span>
-                        <span class="highest">
-                            <p>Highest Bid</p>
-                            <p class="monet">0.33 wETH</p>
-                        </span>
-                    </div>
-                </div>
-                <div class="astro lap10">
-                    <div>
-                        <p class="acwrap">Desert Walk</p>
-                        <p class="acmini">
-                            <img src="./Image/creators/space.png" alt="ava">
-                        <p class="nameus">Catch 22</p>
-                        </p>
-                        <span class="prace">
-                            <p>Price</p>
-                            <p class="monet">1.63 ETH</p>
-                        </span>
-                        <span class="highest">
-                            <p>Highest Bid</p>
-                            <p class="monet">0.33 wETH</p>
-                        </span>
-                    </div>
-                </div>
-                <div class="astro lap11">
-                    <div>
-                        <p class="acwrap">IceCream Ape 0324</p>
-                        <p class="acmini">
-                            <img src="./Image/creators/space.png" alt="ava">
-                        <p class="nameus">Ice Ape Club</p>
-                        </p>
-                        <span class="prace">
-                            <p>Price</p>
-                            <p class="monet">1.63 ETH</p>
-                        </span>
-                        <span class="highest">
-                            <p>Highest Bid</p>
-                            <p class="monet">0.33 wETH</p>
-                        </span>
-                    </div>
-                </div>
-                <div class="astro lap12">
-                    <div>
-                        <p class="acwrap">Colorful Dog 0344</p>
-                        <p class="acmini">
-                            <img src="./Image/creators/space.png" alt="ava">
-                        <p class="nameus">PuppyPower</p>
+                        <p class="nameus">Spaceone</p>
                         </p>
                         <span class="prace">
                             <p>Price</p>
@@ -291,48 +273,48 @@
     </div>
     <div class="footer">
         <div class="container">
-            <div class="footer_first">
-                <div class="contact">
-                    <img class="Logfooter" src="./Image/Storefront.svg" alt="NFT">
-                    <a href="nft.html" alt="Home">
-                        <img class="nftmarketlogo" src="./Image/NFT Marketplace.svg" alt="NFT">
-                    </a>
-                    <p>
-                        <a href="">NFT marketplace UI created <br> with Anima for Figma.</a>
-                    </p>
-                    <p>
-                        <a href="">Join our community</a>
-                    </p>
-                    <img src="./Image/svg/icons_contact.svg" alt="Icons">
+                <div class="footer_first">
+                    <div class="contact">
+                        <img  class="Logfooter" src="./Image/Storefront.svg" alt="NFT">
+                        <a  href="nft.html" alt="Home">
+                            <img class="nftmarketlogo" src="./Image/NFT Marketplace.svg" alt="NFT">
+                        </a>
+                        <p> 
+                            <a href="">NFT marketplace UI created <br> with Anima for Figma.</a>
+                        </p>
+                        <p>
+                            <a href="">Join our community</a>
+                        </p>
+                        <img src="./Image/svg/icons_contact.svg" alt="Icons">
+                    </div>
+                    <div class="explore">
+                        <h5>Explore</h5>
+                        <p>
+                            <a href="marketplace.html" target="_self">Marketplace</a>
+                        </p>
+                        <p>
+                            <a href="">Rankings</a>
+                        </p>
+                        <p>
+                            <a href="">Connect a wallet</a>
+                        </p>
+                    </div>
+                    <div class="footer_subs">
+                        <h5>Join our weekly digest</h5>
+                        <p>
+                            <a href="">Get exclusive promotions & updates <br> straight to your inbox.</a>
+                        </p>
+                        <input class="inemail" type="email" name="subs" placeholder="Enter your email here">
+                        <button class="subscribe_btn klick">
+                            <img src="./Image/svg/email.svg" alt="Email">
+                            <p>Subscribe</p>
+                        </button>
+                    </div>
                 </div>
-                <div class="explore">
-                    <h5>Explore</h5>
-                    <p>
-                        <a href="marketplace.html" target="_self">Marketplace</a>
-                    </p>
-                    <p>
-                        <a href="">Rankings</a>
-                    </p>
-                    <p>
-                        <a href="">Connect a wallet</a>
-                    </p>
+                <div class="footer_last">
+                    <p>&copy NFT Market. Use this template freely.</p>
                 </div>
-                <div class="footer_subs">
-                    <h5>Join our weekly digest</h5>
-                    <p>
-                        <a href="">Get exclusive promotions & updates <br> straight to your inbox.</a>
-                    </p>
-                    <input class="inemail" type="email" name="subs" placeholder="Enter your email here">
-                    <button class="subscribe_btn klick">
-                        <img src="./Image/svg/email.svg" alt="Email">
-                        <p>Subscribe</p>
-                    </button>
-                </div>
-            </div>
-            <div class="footer_last">
-                <p>&copy NFT Market. Use this template freely.</p>
-            </div>
-
+            
         </div>
     </div>
 </body>
