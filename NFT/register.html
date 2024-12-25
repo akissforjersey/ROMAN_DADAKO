@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ConnectWallet</title>
+    <title>Register</title>
     <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/normalaze.css">
     <link rel="stylesheet" href="./CSS/style.css">
@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="./CSS/creators.css">
     <link rel="stylesheet" href="./CSS/footer.css">
     <link rel="stylesheet" href="./CSS/subs.css">
-    <link rel="stylesheet" href="./CSS/wallet.css">
+    <link rel="stylesheet" href="./CSS/register.css">
+    <link rel="stylesheet" href="./CSS/tablet.css">
+    <link rel="stylesheet" href="./CSS/mobile.css">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link
@@ -34,9 +36,9 @@
             <ul class="menu_main">
                 <li><a href="marketplace.html" target="_blank">Marketplace</a></li>
                 <li><a href="rankings.html" target="_blank">Rankings</a></li>
-                <li><a href="wallet.html" target="_self">Connect a wallet</a></li>
+                <li><a href="wallet.html" target="_blank">Connect a wallet</a></li>
             </ul>
-            <form action="register.html" target="_blank">
+            <form action="register.html" target="_self">
             <button class="signup klick">
                 <img src="./Image/svg/signup.svg" alt="Sign">
                 <p>Sign Up</p>
@@ -44,28 +46,17 @@
         </form>
         </div>
     </div>
-        <div class="wallet">
-            <div class="wallet-cosmo"></div>
-            <div class="wallet-main">
-                <h2>Connect wallet</h2>
-                <p class="bodytext">Choose a wallet you want to connect.<br>There are several wallet providers.</p>
-                <form class="wallet-form" action="" target="_self">
-                    <button class="wallet-form-btn">
-                        <img src="./Image/svg/Metamask.svg" alt="Mask">
-                        <p>Metamask</p>
-                    </button>
-                </form>
-                <form class="wallet-form" action="" target="_self">
-                    <button class="wallet-form-btn">
-                        <img src="./Image/svg/WalletConnect.svg" alt="Mask">
-                        <p>Wallet Connect</p>
-                    </button>
-                </form>
-                <form class="wallet-form" action="" target="_self">
-                    <button class="wallet-form-btn">
-                        <img src="./Image/svg/Coinbase.svg" alt="Mask">
-                        <p>Coinbase</p>
-                    </button>
+        <div class="register">
+            <div class="register-cosmo"></div>
+            <div class="register-main">
+                <h2>Create account</h2>
+                <p class="bodytext">Welcome! enter your details and start<br>creating, collecting and selling NFTs.</p>
+                <form action="#" class="register-main-pass" target="_self">
+                    <input class="register-pass  enter" type="text" name="signname" placeholder="Username">
+                    <input class=" register-pass enter" type="email" name="signemail" placeholder="Email Address">
+                    <input class="register-pass enter" type="password" name="signpassword" placeholder="Password">
+                    <input class="register-pass enter" type="password" name="subspassword2" placeholder="Confirm Password">
+                    <input type="submit"  class="registersumb register-btn klick" value="Create account">
                 </form>
 
             </div>
@@ -109,13 +100,13 @@
                         <a href="rankings.html" target="_blank">Rankings</a>
                     </p>
                     <p>
-                        <a href="wallet.html" target="_self">Connect a wallet</a>
+                        <a href="wallet.html" target="_blank">Connect a wallet</a>
                     </p>
                 </div>
                 <div class="footer_subs">
                     <h5>Join our weekly digest</h5>
                     <p>
-                        <a href="register.html" target="_blank">Get exclusive promotions & updates <br> straight to your inbox.</a>
+                        <a href="register.html" target="_self">Get exclusive promotions & updates<br>straight to your inbox.</a>
                     </p>
                     <input class="inemail" type="email" name="subs" placeholder="Enter your email here">
                     <button class="subscribe_btn klick">

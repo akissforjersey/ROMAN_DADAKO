@@ -1,0 +1,51 @@
+@media all and (max-width:1400px) {
+     .header{
+        flex-wrap: wrap;
+        height: 130px;
+     }
+     .menu{
+        margin-top: 30px;
+        margin-bottom: 20px;
+     }
+     .menu_main{
+        flex-direction: column;
+        
+     }
+     .menu_main li a{
+        padding: 0  0 10px 0;
+     }
+    .container {
+        width: auto;
+    }
+    .register-cosmo{
+       margin-left: -120px;
+        width: 500px;
+        height: 615px;
+        
+    }
+    .register-main {
+        margin-right: 70px;
+        margin-left: 40px;
+        
+    }
+
+    .bodytext {
+        font-size: 16px;
+        line-height: 140%;
+    }
+    .footer_first {
+        flex-direction: column;
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+    .footer_last{
+    
+         margin: 30px 55px 0 55px;
+    }
+    .footer br{
+           display: none;
+    }
+    .footer_subs button{
+        bottom: 0;
+    }
+}

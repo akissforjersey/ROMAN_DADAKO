@@ -1,6 +1,7 @@
-.ournft:active {
-    border-bottom: 2px solid #858584;
 
+.ournft:focus {
+    border-bottom: 2px solid #858484;
+    color: white;
 }
 
 
@@ -10,8 +11,9 @@
     height: 60px;
     border: none;
     background-color: transparent;
-    color: #ffffff;
+    color: #858584;
     margin: 30px 0 0 0;
+    cursor: pointer;
 
 
 }

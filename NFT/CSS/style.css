@@ -16,13 +16,26 @@ body {
     color: #FFFFFF;
     padding-right: 10px;
     border-radius: 20px;
-    padding: 0px 20px;
+    padding: 0px 30px;
     width: 139px;
     height: 46px;
     font-weight: 600;
     font-size: 16px;
     line-height: 140%;
     text-align: center;
+}
+.menu_main a:hover{
+    color: #ff0081;
+    text-shadow: 0 0 10px #ff0081;
+    transition: transform ease-in 0.2s;
+}
+.menu_main li:hover{
+    transform: scale(1.1);
+    transition: transform ease-in 0.2s;
+}
+.menu_main li:active{
+    transform: scale(0.9);
+    transition: transform ease-in 0.2s;
 }
 
 .header {
@@ -73,6 +86,7 @@ body {
     line-height: 140%;
     text-align: center;
     margin-right: 50px;
+    margin-left: 30px;
 }
 
 .post {
@@ -246,3 +260,7 @@ h2 {
 
 
 }
+.iconsocial {
+    margin-top: 12px;
+}
+

@@ -1,0 +1,70 @@
+.register-btn {
+    border-radius: 20px;
+    padding: 0px 50px;
+    width: 330px;
+    height: 46px;
+    margin-top: 30px;
+}
+
+.register-cosmo {
+    background-image: url('../Image/wallet/station2.png');
+    background-repeat: no-repeat;
+    width: 610px;
+    height: 691px;
+}
+
+.register {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.register-main {
+    margin: 17px 300px 0 0;
+
+}
+
+.register-pass {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px 10px 52px;
+    width: 330px;
+    height: 46px;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    transition: transform ease-in 0.2s;
+    
+
+}
+.enter{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: black;
+    border: none;
+}
+.enter:focus{
+    box-shadow: 0 0 15px #ca0a80;
+    border: none;
+    outline: 0;
+    
+}
+
+
+
+  
+  .register-pass:hover {
+    box-shadow: 0 0 10px #A259FF;
+    
+  }
+  .register-pass:active{
+    transform: scale(0.9);
+    box-shadow: 0 0 15px #A259FF;
+    
+  }
