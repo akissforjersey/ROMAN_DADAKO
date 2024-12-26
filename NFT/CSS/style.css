@@ -253,10 +253,10 @@ h2 {
 }
 
 .fon {
-    background: url('../Image/marketplaceimg/PlaceHolder.png');
+    /* background: url('../Image/marketplaceimg/PlaceHolder.png');
     background-repeat: no-repeat;
     height: 900px;
-    background-size: 100%;
+    background-size: contain; */
 
 
 }

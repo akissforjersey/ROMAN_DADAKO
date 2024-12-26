@@ -1,51 +1,260 @@
 @media all and (max-width:1400px) {
-     .header{
+    .header {
         flex-wrap: wrap;
         height: 130px;
-     }
-     .menu{
+    }
+
+    .menu {
         margin-top: 30px;
         margin-bottom: 20px;
-     }
-     .menu_main{
+    }
+
+    .menu_main {
         flex-direction: column;
-        
-     }
-     .menu_main li a{
-        padding: 0  0 10px 0;
-     }
+
+    }
+
+    .menu_main li a {
+        padding: 0 0 10px 0;
+    }
+
     .container {
         width: auto;
+        margin: 0 55px 0 55px;
     }
-    .register-cosmo{
-       margin-left: -120px;
+
+    .register-cosmo {
+        margin-left: -120px;
         width: 500px;
         height: 615px;
-        
+
     }
+
     .register-main {
         margin-right: 70px;
         margin-left: 40px;
-        
+
     }
 
     .bodytext {
         font-size: 16px;
         line-height: 140%;
     }
+
     .footer_first {
         flex-direction: column;
-        padding-left: 55px;
-        padding-right: 55px;
+
     }
-    .footer_last{
-    
-         margin: 30px 55px 0 55px;
+
+    .footer_last {
+
+        margin: 30px 35px 0 35px;
     }
-    .footer br{
-           display: none;
+
+    .footer br {
+        display: none;
     }
-    .footer_subs button{
+
+    .footer_subs button {
         bottom: 0;
     }
+
+    .fon img {
+        max-width: 100%;
+    }
+
+    .orbi_text img {
+        width: 24px;
+        height: 24px;
+
+    }
+
+    .bodytext {
+        line-height: 150%;
+    }
+
+    .discover_more {
+        column-gap: 40px;
+    }
+
+    .lap9 {
+        display: none;
+    }
+
+    .casethree {
+        display: none;
+    }
+
+    .Categories_list {
+        grid-template-columns: repeat(4, 150px);
+        grid-template-rows: repeat(2, 210px);
+    }
+
+    .art,
+    .Collectibles,
+    .Music,
+    .Video,
+    .Utility,
+    .Sport,
+    .Virtual,
+    .Photography {
+        width: 150px;
+        height: 210px;
+        background-color: #3B3B3B;
+        background-size: contain;
+    }
+
+    .Categories_list svg {
+        width: 80px;
+        height: 80px;
+        margin: 30px;
+    }
+
+    .Categories_list p {
+        font-size: 16px;
+        padding: 20px 20px 25px 20px;
+        width: 150px;
+        height: 67px;
+
+
+    }
+
+    .discover_more div:nth-of-type(3) {
+        display: none;
+    }
+
+    .setup_wallet,
+    .start_earning,
+    .create_collection {
+
+        padding: 10px 20px 30px 20px;
+        width: 210px;
+        height: 320px;
+    }
+
+    .work_step p:last-of-type {
+        font-size: 12px;
+    }
+
+    .work_step p:first-of-type {
+        font-size: 16px;
+    }
+
+    .work_step img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .subscribe img[alt="Kosmonaft"] {
+        width: 350px;
+        height: 280px;
+        
+    }
+
+    .subscribe {
+        height: 280px;
+        padding: 30px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    .subscribe_text {
+        width: 300px;
+        height: 280px;
+        margin-left: 20px;
+    }
+
+    .subscribe h3 {
+        margin: 0;
+    }
+
+    .subscribe input {
+
+        padding: 16px 20px;
+        width: 300px;
+        height: 46px;
+        margin-top: 20px;
+
+    }
+
+    .subscribe button {
+        position: static;
+        width: 300px;
+        height: 46px;
+        margin-top: 15px;
+
+
+    }
+
+    h1 {
+        font-size: 38px;
+        line-height: 120%;
+    }
+
+    .folow ul {
+        justify-content: flex-start;
+    }
+
+
+    .folow li p:first-of-type {
+        font-size: 22px;
+    }
+
+    .folow li p:last-of-type {
+        font-size: 16px;
+    }
+
+    .folow li:nth-of-type(2) {
+        margin: 0 20px 0 20px;
+    }
+
+
+    .textinfo {
+        width: 300px;
+    }
+
+    .cosmo {
+        padding: 20px;
+        width: 330px;
+        height: 330px;
+    }
+
+    .cosmo img[alt="Cosmos"] {
+        width: 100%;
+
+    }
+
+    .acount {
+        width: auto;
+    }
+
+    .creator_user7,
+    .creator_user8,
+    .creator_user9,
+    .creator_user10,
+    .creator_user11,
+    .creator_user12 {
+        display: none;
+    }
+
+    .creator_user_list {
+        grid-column-gap: 20px;
+        grid-template-columns: repeat(2, 240px);
+        grid-template-rows: repeat(3, 238px);
+        padding-bottom: 80px;
+
+    }
+    .wallet{
+        margin: 20px 30px 40px 30px;
+    }
+    .wallet-main {
+        margin: 0;
+    }
+    .wallet-cosmo {
+        display: none;
+    }
+    
+
 }
